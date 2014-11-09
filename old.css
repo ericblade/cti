@@ -1,0 +1,89 @@
+			body 	{
+						background: url('images/ctiback.jpg');
+						background-attachment: fixed;
+						color: black;
+						font-size: 90%;
+					}
+			div {
+				border: black double;
+			}
+			div.stats {
+						position: absolute;
+						top: 0;
+						left: 0;
+						/*bottom: 75%;*/
+						width: 15%;
+						text-align: center;
+						background: #0000AA;
+						color: yellow;
+						/*float: left;*/
+					}
+			div.leftmenu { /* this is pretty buggy i wouldn't use it*/
+						top: 25%;
+						left: 0;
+						position: absolute;
+						width: 15%;
+						background: #0000AA;
+						color: yellow;
+						/*float: left;*/
+					}
+			div.stats TH {
+						color: white;
+						font-weight: bold;
+					}
+			div.stats TD {
+							color: #FFFF33;
+							font-weight: bold;
+						}
+			div.stats A {
+							color: #00FF00;
+							text-decoration: none;
+							font-weight: bold;
+						}
+			div.warez {
+						position: absolute;
+						top: 0;
+						right: 0;
+						width: 15%;
+						text-align: center;
+						background: #0000AA;
+						color: yellow;
+						float: right;
+					}
+			div.warez A {
+						color: white;
+						/*font-size: 120%;*/
+						}
+			div.warez H1 {
+						color: yellow;
+						font-size: 150%;
+						border: solid yellow;
+					}
+			div.warez TABLE {
+						text-align: center;
+					}
+			div.main {
+			  			position: fixed;
+						top: 0;
+						left: 17%;
+  						bottom: 0;
+  						margin: auto;
+						padding: 1%;
+						width: 64%;
+						/*background: black;*/
+						background-color: #87AEC5;/*#D2E7F4;*/
+						float: none;
+						color: black;
+						overflow: auto;
+					}
+			div.main TABLE {
+						width: 100%;
+					}
+			div.main A {
+						color: #990000;
+					}
+			.msgheader {
+						text-align: left;
+						width: 14%;
+					}
+			.inline { display: inline; }

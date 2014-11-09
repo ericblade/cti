@@ -1,0 +1,198 @@
+			*		{
+						padding: 0;
+						margin: 0;
+					}
+			body 	{
+						background: url('images/ctiback.jpg');
+						background-attachment: fixed;
+						color: black;
+						font-size: 90%;
+					}
+			div {
+				border: black double;
+			}
+			input.text {
+				width: 83%;
+				border: 2px solid transparent;
+			}
+			.submit {
+				background: url('images/ctiback.jpg');
+				color: white;
+				font-weight: bold;
+				/*border: 2px solid transparent;*/
+			}
+			textarea {
+				width: 84%;
+			}
+			label {
+				float: left;
+				width: 15%;
+				text-align: right;
+				font-weight: bold;
+			}
+			fieldset {
+				border: outset green;
+				background-color: #82A9C0;
+			}
+			div.stats {
+						overflow: hidden;
+						position: absolute;
+						top: 0;
+						left: 0;
+						/*bottom: 75%;*/
+						width: 15%;
+						/*width: 10em;
+						min-width: 10em;
+						max-width: 10em;*/
+						text-align: center;
+						background: #0000AA;
+						color: yellow;
+						/*border: 0px;*/
+						/*font-size: 96%;*/
+						/*float: left;*/
+					}
+			div.leftmenu { /* this is pretty buggy i wouldn't use it*/
+						top: 25%;
+						left: 0;
+						position: absolute;
+						width: 15%;
+						background: #0000AA;
+						color: yellow;
+						/*float: left;*/
+					}
+			div.stats TABLE {
+						text-align: center;
+						border-collapse: collapse;
+						margin: auto;
+						width: 99%;
+					}
+			div.stats TH {
+						border: thin solid black;
+						border-right: none;
+						color: white;
+						font-weight: bold;
+						padding: 0px;
+						margin: 0px;
+					}
+			div.stats TD {
+							border: thin solid black;
+							border-left: none;
+							color: #FFFF33;
+							font-weight: bold;
+							padding: 0px;
+							margin: 0px;
+						}
+			div.stats A {
+					color: #00FF00;
+					font-weight: bold;
+				}	
+			.nounder {
+							color: #00FF00;
+							text-decoration: none;
+							font-weight: bold;
+						}
+			div.stats A:hover {
+							background: #0000FF;
+						}
+			div.warez {
+						position: absolute;
+						top: 0;
+						right: 0;
+						width: 15%;
+						/*text-align: center;*/
+						background: #0000AA;
+						color: yellow;
+						float: right;
+						font-size: 96%;
+						text-align: justify;
+					}
+			div.warez A {
+						color: white;
+						/*text-decoration: none;*/
+						/*font-size: 120%;*/
+						border: #0000AA solid 1px;
+						/*padding-left: 5px;*/ /*padding-right:5px;*/
+						/*margin-top: 10px;
+						margin-bottom: 10px;*/
+						margin: 0px;
+						/*padding-left: 3px;*/
+						margin-left: 6px;
+						margin-right: 6px;
+						}
+			div.warez A:hover {
+						background: #0000FF;
+						border: white solid 1px;
+						text-decoration: none;
+					}
+			div.warez SPAN  {
+						color: yellow;
+						font-size: 110%;
+						font-weight: bolder;
+					}
+			div.warez H1 {
+						color: yellow;
+						font-size: 150%;
+						border: solid yellow;
+					}
+			div.warez TABLE {
+						text-align: center;
+					}
+			div.main {
+			  			position: fixed;
+						top: 0;
+						left: 17%;
+  						bottom: 0;
+  						margin: auto;
+						padding: 1%;
+						width: 64%;
+						/*background: black;*/
+						background-color: #87AEC5;/*#D2E7F4;*/
+						float: none;
+						color: black;
+						overflow: auto;
+					}
+			div.main TABLE {
+						width: 100%;
+					}
+			div.main TR:hover {
+						background-color: #D2E7F4;
+					}
+			.msgheader {
+						text-align: left;
+						width: 14%;
+					}
+
+			div.main TH {
+						border-bottom: 2px solid black;
+					}
+			div.main TD {
+					}
+			div.main A {
+						color: #990000;
+					}
+			div.insidemain {
+						width: 98%;
+						border:none;
+					}
+			div.insidemain .windowtitle {
+				font-size: 110%;
+				font-weight: bold;
+				padding-left: 7%;
+				margin-right: 55%;
+				margin-top: 5px;
+				background: #FFD700;
+				color: black;
+				border: 2px solid black;
+				border-bottom: none;
+			}
+			div.insidemain .window {
+				padding: 3px;
+				width: 98%;
+				background: #FFD700;
+				color: black;
+				border: 2px solid black;
+				border-top: 1px solid black;
+				z-index: +5;
+			}
+			.inline { display: inline; }
+			wbr:after { content: "\00200B" }
